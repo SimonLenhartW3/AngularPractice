@@ -1,0 +1,13 @@
+div {
+    position: absolute;
+/* REX WS – Box Lightgrey */
+
+background: rgb(54, 49, 49);
+border-radius: 10px;
+}
+
+:host /deep/ .inBox--title {
+    color: white;
+    margin: 15px;
+    font-size: 12px;
+  }

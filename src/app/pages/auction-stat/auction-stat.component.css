@@ -1,0 +1,15 @@
+em {
+    color: turquoise;
+}
+
+.timerNumber {
+    color: turquoise;
+    font-size: 3em;
+    margin: 10px;
+}
+
+#timerInBox{
+    position: relative;
+    top: -50px;
+    left: 80px;
+}

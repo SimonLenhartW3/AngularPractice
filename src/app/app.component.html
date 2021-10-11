@@ -1,0 +1,10 @@
+<ng-container>
+    <app-header [title] = "activePageTitle"></app-header>
+    <app-btn-bar (btnClickedEvent)="changePanel($event)"></app-btn-bar>
+    <div class="content">
+        <app-global-stat *ngIf="activePageApp[0]"></app-global-stat>
+        <app-auction-stat *ngIf="activePageApp[1]"></app-auction-stat>
+    </div>
+
+</ng-container>
+

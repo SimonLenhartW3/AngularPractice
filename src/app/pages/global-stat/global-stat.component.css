@@ -1,0 +1,8 @@
+app-basic-box p{
+    color: white;
+    font-size: 20px;
+    margin: 40px 40px 40px 40px;
+    position: relative;
+    top: 10px;
+}
+

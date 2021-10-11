@@ -1,0 +1,30 @@
+.btn {
+    position: absolute;
+    width: 168px;
+    height: 40px;
+    top: 0px;
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 10px;
+    line-height: 24px;
+    /* identical to box height, or 240% */
+
+    text-align: center;
+    letter-spacing: 0.1em;
+
+    cursor: pointer;
+
+    /* REX WS – Round Box Filler */
+
+    color:turquoise;
+border-radius: 10px;
+}
+
+.btn--upper {
+    text-transform: uppercase;
+}
+
+:host /deep/ p {
+    color:red;
+  }

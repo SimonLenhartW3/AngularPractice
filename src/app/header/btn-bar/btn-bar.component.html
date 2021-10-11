@@ -1,0 +1,55 @@
+<div>
+    <app-btn 
+        class = "btnInLeiste"
+        [active] = "btnActive[0]"
+        text="global"
+        leftVal= "0px"
+        btnNumber="0"
+        posOnPage="btnBar"
+        (btnClick)="changePanel($event)"
+        class="btn--upper"
+    >
+    </app-btn>
+    <app-btn  
+        class = "btnInLeiste"
+        [active] = "btnActive[1]"
+        text="auctions"
+        leftVal= "175px"
+        btnNumber="1"
+        posOnPage="btnBar"
+        (btnClick)="changePanel($event)"
+        class="btn--upper">
+    </app-btn>
+    <app-btn
+        class = "btnInLeiste"
+        [active] = "btnActive[2]"
+        text="staking"
+        leftVal= "350px"
+        btnNumber="2"
+        posOnPage="btnBar"
+        (btnClick)="changePanel($event)"
+        class="btn--upper">
+    </app-btn>
+    <app-btn
+        class = "btnInLeiste"
+        [active] = "btnActive[3]"
+        text="price"
+        leftVal= "525px"
+        btnNumber="3"
+        posOnPage="btnBar"
+        (btnClick)="changePanel($event)"
+        class="btn--upper">
+    </app-btn>
+    <app-btn
+        class = "btnInLeiste"
+        [active] = "btnActive[4]"
+        text="your statistics"
+        leftVal= "700px"
+        btnNumber="4"
+        posOnPage="btnBar"
+        (btnClick)="changePanel($event)"
+        class="btn--upper">
+    </app-btn>
+
+
+</div>

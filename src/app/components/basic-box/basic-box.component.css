@@ -1,0 +1,22 @@
+.container {
+    position: absolute;
+
+    background: linear-gradient(270deg, rgba(80, 80, 80, 0.4) 0%, rgba(80, 80, 80, 0.429305) 34.9%, rgba(80, 80, 80, 0.32) 70.71%, rgba(80, 80, 80, 0.3) 79.48%);
+    border-radius: 15px 20px 20px 15px;
+}
+
+.questionmark {
+    position: relative;
+    top: -25px;
+    left: 88%;
+    background-color: teal;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+.questionmark p {
+    position: relative;
+    left: 6px;
+    top: 0px;
+}
+

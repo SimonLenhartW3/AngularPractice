@@ -1,0 +1,10 @@
+<button 
+    [ngStyle]="{'background-color': active  ? 'aqua' :'grey', 
+                 'color': active ? 'black' : 'turquoise',
+                'left': leftVal, 
+                'top': topVal}" 
+    class="btn"
+    class= {{class}} 
+    (click)="onClick()">
+    {{ text }}
+</button>

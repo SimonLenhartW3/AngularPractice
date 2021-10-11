@@ -1,0 +1,13 @@
+* {
+    position: absolute;
+    left: 10%;
+}
+
+app-btn-bar {
+    top: 150px;
+  
+}
+
+.content {
+    left: -230px;
+}

@@ -1,0 +1,15 @@
+<div class="container" [ngStyle]="{'width': widthVal,
+                 'height': heightVal,
+                 'top': topVal,
+                 'left': leftVal,
+                 'margin': '15px'}">
+                 <ng-content></ng-content>
+    <div class="questionmark"><p>?</p></div>
+    <app-boxheader 
+        content1 = {{boxtitle1}} 
+        content2 = {{boxtitle2}}
+        topVal = {{titleTop}}
+        leftVal = {{titleLeft}}
+    ></app-boxheader>
+
+</div>
